@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-blue-900 fixed md:flex-row">
       <div>
-        <h1 className="text-4xl font-myName">Bernie Petters</h1>
+        <h1 className="text-5xl font-myName">Bernie Petters</h1>
       </div>
       <ul className="hidden md:flex">
         {navLinks.map(({ id, link }) => (
@@ -50,7 +50,7 @@ const NavBar = () => {
           {navLinks.map(({ id, link }) => (
             <li
               key={id}
-              className="cursor-pointer font-medium text-white bg-blue-900 p-4 hover:scale-110"
+              className="cursor-pointer font-medium text-white bg-blue-900 w-120 h-12 p-4 hover:scale-110 hover:border hover:rounded-lg"
             >
               {link}
             </li>
