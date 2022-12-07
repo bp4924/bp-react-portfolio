@@ -8,7 +8,6 @@ const Home = () => {
     <div
       name="home"
       className="h-full w-full top-20"
-      /*       ADD background image without covering up drop-down links       */
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
       <div className="flex flex-col items-center justify-center h-screen max-w-screen-lg m-auto">
