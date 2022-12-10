@@ -47,7 +47,7 @@ const Projects = () => {
           <p>Projects</p>
         </div>
         {/* cards  */}
-        <div className="grid gap-8 px-0 md:grid-cols-2 lg:grid-cols-3 rounded h-full">
+        <div className="grid gap-8 px-0 rounded h-full md:grid-cols-2 lg:grid-cols-3">
           {projects.map(({ id, src }) => (
             <div
               key={id}

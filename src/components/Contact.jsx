@@ -4,18 +4,16 @@ import splashScreen from "../assets/vertical-code.png";
 const Contact = () => {
   return (
     <div
-      name="about"
+      name="contact"
       className="h-screen w-full top-20"
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
       <div>
         <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
           <div className="text-4xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
-            <div>
-              <p>Contact</p>
-            </div>
+            <p>Contact</p>
           </div>
-          <div className="text-2xl text-white p-2 bg-slate-900">
+          <div className="text-2xl rounded-lg text-white p-2 bg-slate-900">
             <p>Please complete the form and click the submit button</p>
           </div>
 
@@ -25,23 +23,26 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Enter your name"
-                className="bg-transparent p-2 m-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
+                className="bg-transparent p-2 my-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               />
               <input
                 type="text"
                 name="email"
                 placeholder="Enter your email address"
-                className="bg-transparent p-2 m-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
+                className="bg-transparent p-2 my-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               />
               <textarea
                 name="message"
                 rows="10"
-                className="bg-transparent p-2 m-2 border-2 w-full rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
+                placeholder="Message"
+                className="bg-transparent p-2 my-2 border-2 w-full rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               ></textarea>
               <div>
-                <button className="bg-gray-800 text-center text-gray-400 m-4 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
-                  Submit
-                </button>
+                <div className="float-right">
+                  <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
+                    Submit
+                  </button>
+                </div>
               </div>
             </form>
           </div>
