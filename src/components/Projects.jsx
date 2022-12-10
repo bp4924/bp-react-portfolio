@@ -35,24 +35,29 @@ const Projects = () => {
       src: weather,
     },
   ];
+
   return (
     <div
       name="projects"
-      className="h-screen w-full"
+      className="h-full w-full top-20"
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
       <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
-        <div className="text-2xl font-bold text-blue-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
+        <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
           <p>Projects</p>
         </div>
         {/* cards  */}
-        <div className="grid gap-8 px-0 md:grid-cols-2 lg:grid-cols-3 rounded h-auto">
+        <div className="grid gap-8 px-0 md:grid-cols-2 lg:grid-cols-3 rounded h-full">
           {projects.map(({ id, src }) => (
             <div
               key={id}
-              className="bg-blue-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
+              className="bg-slate-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
             >
-              <img src={src} alt="screenshot" className="rounded-lg " />
+              <img
+                src={src}
+                alt="screenshot"
+                className="rounded-lg h-40 w-full"
+              />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
                   demo

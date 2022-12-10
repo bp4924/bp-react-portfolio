@@ -12,10 +12,10 @@ const Home = () => {
     >
       <div className="flex flex-col items-center justify-center h-screen max-w-screen-lg m-auto">
         <div className="flex flex-col justify-center items-center">
-          <h3 className="text-4xl font-bold text-blue-900  bg-orange-500 p-4 rounded-lg mb-4 text-center m-0 ">
+          <h3 className="text-4xl font-bold text-slate-900  bg-orange-500 p-4 rounded-lg mb-4 text-center m-0 ">
             Full Stack Developer
           </h3>
-          <p className="bg-blue-900 italic text-gray-300 text-lg mx-6 p-4 rounded-lg text-center">
+          <p className="bg-slate-900 italic text-gray-300 text-lg mx-6 p-4 rounded-lg text-center">
             Pilot | Runner | Navy Vet <br /> Indecision may or may not be my
             biggest problem.
           </p>
