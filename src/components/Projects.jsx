@@ -79,7 +79,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="h-full w-full top-20"
+      className="h-full w-full"
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
       <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">

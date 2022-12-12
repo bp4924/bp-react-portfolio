@@ -25,7 +25,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-slate-900 md:flex-row">
+    <div className="flex justify-between items-center sticky top-0 w-full h-20 px-4 text-white bg-slate-900 md:flex-row">
       <div>
         <h1 className="text-5xl font-myName">Bernie Petters</h1>
       </div>
@@ -50,7 +50,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col items-center absolute top-24 left-0 w-full h-auto bg-slate-900 md:hidden">
+        <ul className="flex flex-col items-center absolute top-20 border rounded-lg mx-4 left-0 w-full h-auto bg-slate-900 md:hidden">
           {navLinks.map(({ id, link }) => (
             <li
               key={id}
