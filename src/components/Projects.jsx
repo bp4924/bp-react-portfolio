@@ -11,6 +11,15 @@ import weatherImg from "../assets/projects/weather.png";
 
 // project demo links
 // project code links
+const eCommerceDemoLink =
+  "https://watch.screencastify.com/v/CezrQxMzXkyMSvaGYd5h";
+const noSqlDemoLink = "https://watch.screencastify.com/v/8UU8iDM3oLGrf4Ce0QGr";
+const projectTrackerDemoLink = "https://bp4924.github.io/BP-Project-Tracker/";
+const employeeTrackerDemoLink =
+  "https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj";
+const teamProfileDemoLink =
+  "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
+const weatherDemoLink = "https://bp4924.github.io/BP-Weather";
 
 const Projects = () => {
   const project = [
@@ -18,31 +27,37 @@ const Projects = () => {
       id: 1,
       src: eCommerceImg,
       projectName: "eCommerce Back End",
+      demoLink: eCommerceDemoLink,
     },
     {
       id: 2,
       src: noSqlImg,
       projectName: "NoSQL API",
+      demoLink: noSqlDemoLink,
     },
     {
       id: 3,
       src: projectTrackerImg,
       projectName: "Project Tracker",
+      demoLink: projectTrackerDemoLink,
     },
     {
       id: 4,
       src: employeeTrackerImg,
       projectName: "SQL Employee Tracker",
+      demoLink: employeeTrackerDemoLink,
     },
     {
       id: 5,
       src: teamProfileImg,
       projectName: "Team Profile Generator",
+      demoLink: teamProfileDemoLink,
     },
     {
       id: 6,
       src: weatherImg,
       projectName: "Weather Dashboard",
+      demoLink: weatherDemoLink,
     },
   ];
 
@@ -58,7 +73,7 @@ const Projects = () => {
         </div>
         {/* cards  */}
         <div className="grid gap-8 px-0 rounded h-full md:grid-cols-2 lg:grid-cols-3">
-          {project.map(({ id, src, projectName }) => (
+          {project.map(({ id, src, projectName, demoLink }) => (
             <div
               key={id}
               className="bg-slate-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
@@ -71,7 +86,11 @@ const Projects = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-                  demo
+                  <div>
+                    <a target="_blank" rel="noreferrer" href={demoLink}>
+                      demo
+                    </a>
+                  </div>
                 </button>
                 <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
                   code
@@ -84,12 +103,5 @@ const Projects = () => {
     </div>
   );
 };
-
-//https://bp4924.github.io/BP-Project-Tracker/
-//https://watch.screencastify.com/v/8UU8iDM3oLGrf4Ce0QGr - nosql api
-//https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj - employee tracker
-//https://bp4924.github.io/BP-Weather/
-//https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6 - team profile
-//https://watch.screencastify.com/v/CezrQxMzXkyMSvaGYd5h - ecommerce backend
 
 export default Projects;
