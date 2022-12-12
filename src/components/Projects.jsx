@@ -1,38 +1,48 @@
 import React from "react";
 import splashScreen from "../assets/vertical-code.png";
 
-import eCommerce from "../assets/projects/e-commerce-backend.png";
-import noSql from "../assets/projects/nosql.png";
-import projectTracker from "../assets/projects/project-tracker.png";
-import employeeTracker from "../assets/projects/sql-employee-tracker.png";
-import teamProfile from "../assets/projects/team-profile.png";
-import weather from "../assets/projects/weather.png";
+// project images
+import eCommerceImg from "../assets/projects/e-commerce-backend.png";
+import noSqlImg from "../assets/projects/nosql.png";
+import projectTrackerImg from "../assets/projects/project-tracker.png";
+import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
+import teamProfileImg from "../assets/projects/team-profile.png";
+import weatherImg from "../assets/projects/weather.png";
+
+// project demo links
+// project code links
 
 const Projects = () => {
-  const projects = [
+  const project = [
     {
       id: 1,
-      src: eCommerce,
+      src: eCommerceImg,
+      projectName: "eCommerce Back End",
     },
     {
       id: 2,
-      src: noSql,
+      src: noSqlImg,
+      projectName: "NoSQL API",
     },
     {
       id: 3,
-      src: projectTracker,
+      src: projectTrackerImg,
+      projectName: "Project Tracker",
     },
     {
       id: 4,
-      src: employeeTracker,
+      src: employeeTrackerImg,
+      projectName: "SQL Employee Tracker",
     },
     {
       id: 5,
-      src: teamProfile,
+      src: teamProfileImg,
+      projectName: "Team Profile Generator",
     },
     {
       id: 6,
-      src: weather,
+      src: weatherImg,
+      projectName: "Weather Dashboard",
     },
   ];
 
@@ -48,11 +58,12 @@ const Projects = () => {
         </div>
         {/* cards  */}
         <div className="grid gap-8 px-0 rounded h-full md:grid-cols-2 lg:grid-cols-3">
-          {projects.map(({ id, src }) => (
+          {project.map(({ id, src, projectName }) => (
             <div
               key={id}
               className="bg-slate-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
             >
+              <h1 className="text-xl ">{projectName} </h1>
               <img
                 src={src}
                 alt="screenshot"

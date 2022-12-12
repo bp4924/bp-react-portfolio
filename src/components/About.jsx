@@ -9,7 +9,7 @@ const About = () => {
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
       <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
-        <div className="text-4xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
+        <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
           <p>About</p>
         </div>
         <p className="text-white text-lg">
