@@ -35,7 +35,7 @@ const NavBar = () => {
             key={id}
             className="cursor-pointer font-medium text-gray-300 capitalize w-auto p-4 hover:scale-110"
           >
-            <Link to={link} smooth duration={700}>
+            <Link to={link} smooth duration={700} offset={-72}>
               {link}
             </Link>
           </li>
@@ -63,6 +63,7 @@ const NavBar = () => {
                 to={link}
                 smooth
                 duration={700}
+                offset={-72}
               >
                 {link}
               </Link>
