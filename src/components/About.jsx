@@ -9,10 +9,6 @@ const About = () => {
       className="h-screen w-full top-20"
       style={{ backgroundImage: `url(${splashScreen})` }}
     >
-      {/*       <div className="flex flex-col justify-center items-center h-1/2">
-        <img src={headShot} alt="head shot" className="w-40" />
-      </div>
- */}
       <div className="flex flex-col align-middle p-4 m-auto max-w-screen-lg w-full h-screen">
         <div>
           <img
