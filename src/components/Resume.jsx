@@ -1,6 +1,7 @@
 import React from "react";
-import pdfFile from "../assets/pdf/resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
+
+import pdfFile from "../assets/pdf/resume.pdf";
 import splashScreen from "../assets/vertical-code.png";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -19,7 +20,7 @@ const Resume = () => {
         <div className="text-2xl text-center rounded-lg text-white p-2 bg-slate-900">
           <p>Key Proficiencies</p>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center p-4">
           <ul className="w-1/3 text-white text-lg text-left">
             <li>React</li>
             <li>Node</li>
@@ -33,18 +34,14 @@ const Resume = () => {
             <li>CSS</li>
           </ul>
         </div>
-        <div className="flex items-center justify-center text-gray-200 p-4">
-          <button className="w-1/2 mt-2 mx-2 border rounded-lg bg-slate-900 hover:scale-105 hover:bg-gray-400 hover:text-slate-900">
-            <div>View Resume</div>
-          </button>
-          <button className="w-1/2 mt-2 mx-2 border rounded-lg bg-slate-900 hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-            <div>Download pdf</div>
-          </button>
-        </div>
 
-        <div className="w-3/4 items-center">
+        <div className="flex justify-center items-center">
           <Document file={pdfFile}>
-            <Page pageNumber={1} renderTextLayer={false} />
+            <Page
+              pageNumber={1}
+              renderTextLayer={false}
+              renderAnnotationLayer={false}
+            />
           </Document>
         </div>
       </div>

@@ -6,8 +6,9 @@ import eCommerceImg from "../assets/projects/e-commerce-backend.png";
 import noSqlImg from "../assets/projects/nosql.png";
 import projectTrackerImg from "../assets/projects/project-tracker.png";
 import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
-import teamProfileImg from "../assets/projects/team-profile.png";
+//import teamProfileImg from "../assets/projects/team-profile.png";
 import weatherImg from "../assets/projects/weather.png";
+import lyfbroImg from "../assets/projects/lyfbro.png";
 
 // project demo links
 const eCommerceDemoLink =
@@ -16,9 +17,9 @@ const noSqlDemoLink = "https://watch.screencastify.com/v/8UU8iDM3oLGrf4Ce0QGr";
 const projectTrackerDemoLink = "https://bp4924.github.io/BP-Project-Tracker/";
 const employeeTrackerDemoLink =
   "https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj";
-const teamProfileDemoLink =
-  "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
+//const teamProfileDemoLink =   "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
 const weatherDemoLink = "https://bp4924.github.io/BP-Weather";
+const lyfbroDemolink = "https://lyfbro100.herokuapp.com/login";
 
 // project code links
 const eCommerceCodeLink = "https://github.com/bp4924/BP-ORM-eCommerce-Back-End";
@@ -26,9 +27,9 @@ const noSqlCodeLink = "https://github.com/bp4924/BP-NoSql-Social-Network-API";
 const projectTrackerCodeLink = "https://github.com/bp4924/BP-Project-Tracker";
 const employeeTrackerCodeLink =
   "https://github.com/bp4924/BP-SQL-Employee-Tracker";
-const teamProfileCodeLink =
-  "https://github.com/bp4924/BP-Team-Profile-Generator";
+//const teamProfileCodeLink =  "https://github.com/bp4924/BP-Team-Profile-Generator";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
+const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
 
 const Projects = () => {
   const project = [
@@ -62,10 +63,10 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: teamProfileImg,
-      projectName: "Team Profile Generator",
-      demoLink: teamProfileDemoLink,
-      codeLink: teamProfileCodeLink,
+      src: lyfbroImg,
+      projectName: "Lyfbro Fitness Tracker",
+      demoLink: lyfbroDemolink,
+      codeLink: lyfbroCodelink,
     },
     {
       id: 6,

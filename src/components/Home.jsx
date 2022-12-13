@@ -20,12 +20,6 @@ const Home = () => {
             biggest problem.
           </p>
         </div>
-        {/*         <div>
-          <button className="bg-gray-800 text-center text-gray-400 m-4 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
-            Portfolio
-          </button>
-        </div>
- */}{" "}
       </div>
     </div>
   );

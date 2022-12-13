@@ -8,18 +8,22 @@ const NavBar = () => {
   const navLinks = [
     {
       id: 1,
-      link: "about",
+      link: "home",
     },
     {
       id: 2,
-      link: "projects",
+      link: "about",
     },
     {
       id: 3,
-      link: "resume",
+      link: "projects",
     },
     {
       id: 4,
+      link: "resume",
+    },
+    {
+      id: 5,
       link: "contact",
     },
   ];
@@ -50,7 +54,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col items-center absolute top-20 border rounded-lg mx-4 left-0 w-full h-auto bg-slate-900 md:hidden">
+        <ul className="flex flex-col justify-center items-center absolute top-20 left-4 right-4 border rounded-lg h-auto bg-slate-900 md:hidden">
           {navLinks.map(({ id, link }) => (
             <li
               key={id}
