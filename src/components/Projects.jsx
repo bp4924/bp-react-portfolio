@@ -1,5 +1,4 @@
 import React from "react";
-import splashScreen from "../assets/vertical-code.png";
 
 // project images
 import eCommerceImg from "../assets/projects/e-commerce-backend.png";
@@ -78,11 +77,7 @@ const Projects = () => {
   ];
 
   return (
-    <div
-      name="projects"
-      className="h-full w-full"
-      style={{ backgroundImage: `url(${splashScreen})` }}
-    >
+    <div name="projects" className="h-full w-full">
       <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
         <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
           <p>Projects</p>

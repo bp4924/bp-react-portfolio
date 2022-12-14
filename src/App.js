@@ -6,15 +6,21 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+// background image by svgbackgrounds.com
+import splashScreen from "./assets/vanishing-stripes.svg";
+
 function App() {
   return (
-    <div className="no-scrollbar">
+    <div
+      className="no-scrollbar"
+      style={{ backgroundImage: `url(${splashScreen})` }}
+    >
       <NavBar />
       <Home />
       <About />
       <Projects />
-      <Contact />
       <Resume />
+      <Contact />
       <Footer />
     </div>
   );
