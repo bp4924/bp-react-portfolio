@@ -20,13 +20,14 @@ const Contact = () => {
             <form
               onSubmit={(e) => {
                 e.preventDefault();
-                console.log(name);
+                const emailRegex =
+                  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
                 let errorMsg = "";
                 if (!(name.length > 0)) {
                   errorMsg += "You must enter a name \n";
                 }
-                if (!(email.length > 0)) {
-                  errorMsg += "You must enter an email address \n";
+                if (!(email.length > 0) || !emailRegex.test(email)) {
+                  errorMsg += "You must enter a valid email address \n";
                 }
                 if (!(message.length > 0)) {
                   errorMsg += "You must enter a message ";
