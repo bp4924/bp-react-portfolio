@@ -13,7 +13,7 @@ const Resume = () => {
           <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
             <p>Skills</p>
           </div>
-          <div className="text-2xl text-center rounded-lg text-white p-2 bg-slate-900">
+          <div className="text-2xl text-center rounded-lg mb-4 text-white p-2 bg-slate-900">
             <p>Key Proficiencies</p>
           </div>
           <div className="flex items-center justify-center p-4 border rounded-lg">
