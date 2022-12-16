@@ -1,7 +1,7 @@
 import React from "react";
 // import { Document, Page, pdfjs } from "react-pdf";
 
-//import pdfFile from "../assets/pdf/resume.pdf";
+import pdfFile from "../assets/pdf/resume.pdf";
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -33,7 +33,7 @@ const Resume = () => {
           <div>
             <div className="float-right mt-4">
               <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
-                Download Resume
+                <a href={pdfFile}>Download Resume</a>
               </button>
             </div>
           </div>

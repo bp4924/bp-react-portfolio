@@ -1,6 +1,10 @@
 import React from "react";
+import { useState } from "react";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <div name="contact" className="h-screen w-full top-20">
       <div>
@@ -13,20 +17,45 @@ const Contact = () => {
           </div>
 
           <div>
-            <form action="">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                console.log(name);
+                let errorMsg = "";
+                if (!(name.length > 0)) {
+                  errorMsg += "You must enter a name \n";
+                }
+                if (!(email.length > 0)) {
+                  errorMsg += "You must enter an email address \n";
+                }
+                if (!(message.length > 0)) {
+                  errorMsg += "You must enter a message ";
+                }
+
+                if (errorMsg.length > 0) {
+                  alert(errorMsg);
+                }
+              }}
+            >
               <input
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 type="text"
                 name="name"
                 placeholder="Enter your name"
                 className="bg-transparent p-2 my-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               />
               <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 type="text"
                 name="email"
                 placeholder="Enter your email address"
                 className="bg-transparent p-2 my-2 w-full border-2 rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               />
               <textarea
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 name="message"
                 rows="10"
                 placeholder="Message"
@@ -34,7 +63,10 @@ const Contact = () => {
               ></textarea>
               <div>
                 <div className="float-right">
-                  <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
+                  <button
+                    type="submit"
+                    className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300"
+                  >
                     Submit
                   </button>
                 </div>
