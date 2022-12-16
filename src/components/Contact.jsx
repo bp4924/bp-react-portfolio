@@ -34,6 +34,11 @@ const Contact = () => {
 
                 if (errorMsg.length > 0) {
                   alert(errorMsg);
+                } else {
+                  alert("Message sent. Thank you!!");
+                  setName("");
+                  setEmail("");
+                  setMessage("");
                 }
               }}
             >
