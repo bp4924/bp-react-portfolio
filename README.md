@@ -11,10 +11,7 @@ GT Coding Bootcamp Challenge 20
 - [BP React Portfolio](#bp-react-portfolio)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
   - [License](#license)
-  - [Tests](#tests)
   - [Contributing](#contributing)
   - [Questions](#questions)
   - [Demo Video](#demo-video)
@@ -23,21 +20,11 @@ GT Coding Bootcamp Challenge 20
 
 This app provides an overview of my skills as a Full Stack Developer. I have included links to the code and the deployed application, or a short demonstration of the app in action.
 
-## Installation
-
-## Usage
-
-npm run start
-
 ## License
 
 Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license;
 
 Copyright © 2022. All rights reserved.
-
-## Tests
-
-none
 
 ## Contributing
 
