@@ -11,15 +11,32 @@ GT Coding Bootcamp Challenge 20
 - [BP React Portfolio](#bp-react-portfolio)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
+  - [Deployed Application](#deployed-application)
+  - [Usage](#usage)
   - [Screenshot](#screenshot)
   - [License](#license)
   - [Contributing](#contributing)
   - [Questions](#questions)
-  - [Deployed Application](#deployed-application)
 
 ## Description
 
-This app provides an overview of my skills as a Full Stack Developer. I have included links to the code and the deployed application, or a short demonstration of the app in action.
+This app provides an overview of my skills as a Full Stack Developer.
+
+## Deployed Application
+
+https://bp4924.github.io/bp-react-portfolio/
+
+## Usage
+
+The app is deployed to Github pages, and is fully responsive.
+
+To view the app, click this [link](https://bp4924.github.io/bp-react-portfolio/).
+
+- Navigate to the various sections using the menu items at the top. For mobile screens, click the hamburger icon at the top left to expose the menu items.
+
+- Each displayed project contains a link to a demo or deployed app and a link to the code repository on Github.
+
+- To download my resume, click the 'Download Resume' button. THis will open a new tab containing a pdf, which can be printed or saved.
 
 ## Screenshot
 
@@ -45,7 +62,3 @@ Contact me through the links below, or by clicking on one of the links in the ap
   [bp4924](https://github.com/bp4924)
 - ### LinkedIn
   [bernie-petters](https://linkedin.com/in/bernie-petters)
-
-## Deployed Application
-
-https://bp4924.github.io/bp-react-portfolio/
