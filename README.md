@@ -23,7 +23,7 @@ This app provides an overview of my skills as a Full Stack Developer. I have inc
 
 ## Screenshot
 
-![App Screenshot](https://bp4924.github.io/bp-react-portfolio/public/ss1.png)
+![App Screenshot](/public/ss1.png)
 
 ## License
 
