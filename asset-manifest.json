@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bp-react-portfolio/static/css/main.f50e1110.css",
-    "main.js": "/bp-react-portfolio/static/js/main.c7af5a1f.js",
+    "main.js": "/bp-react-portfolio/static/js/main.73bba2a5.js",
     "static/media/nosql.png": "/bp-react-portfolio/static/media/nosql.c20feece339e42bc123c.png",
     "static/media/bp-pic.png": "/bp-react-portfolio/static/media/bp-pic.044dac86618fb9772339.png",
     "static/media/e-commerce-backend.png": "/bp-react-portfolio/static/media/e-commerce-backend.b2dd9750c58741ea4069.png",
-    "static/media/resume.pdf": "/bp-react-portfolio/static/media/resume.d9c3015d985ce40b6ccb.pdf",
     "static/media/sql-employee-tracker.png": "/bp-react-portfolio/static/media/sql-employee-tracker.84128d1411a4eb70b076.png",
+    "static/media/resume.pdf": "/bp-react-portfolio/static/media/resume.dacb02531fa392b1af8d.pdf",
     "static/media/weather.png": "/bp-react-portfolio/static/media/weather.27145fcafb3cf6de05c7.png",
     "static/media/lyfbro.png": "/bp-react-portfolio/static/media/lyfbro.b617cb56959d20cbe371.png",
     "static/media/project-tracker.png": "/bp-react-portfolio/static/media/project-tracker.664e1eab115dd8f49ad9.png",
     "static/media/vanishing-stripes.svg": "/bp-react-portfolio/static/media/vanishing-stripes.2eda3e48a9f4d80c11d9a0ed4a2f71a2.svg",
     "index.html": "/bp-react-portfolio/index.html",
     "main.f50e1110.css.map": "/bp-react-portfolio/static/css/main.f50e1110.css.map",
-    "main.c7af5a1f.js.map": "/bp-react-portfolio/static/js/main.c7af5a1f.js.map"
+    "main.73bba2a5.js.map": "/bp-react-portfolio/static/js/main.73bba2a5.js.map"
   },
   "entrypoints": [
     "static/css/main.f50e1110.css",
-    "static/js/main.c7af5a1f.js"
+    "static/js/main.73bba2a5.js"
   ]
 }
