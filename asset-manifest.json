@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bp-react-portfolio/static/css/main.f50e1110.css",
-    "main.js": "/bp-react-portfolio/static/js/main.73bba2a5.js",
+    "main.js": "/bp-react-portfolio/static/js/main.54385940.js",
     "static/media/nosql.png": "/bp-react-portfolio/static/media/nosql.c20feece339e42bc123c.png",
     "static/media/bp-pic.png": "/bp-react-portfolio/static/media/bp-pic.044dac86618fb9772339.png",
     "static/media/e-commerce-backend.png": "/bp-react-portfolio/static/media/e-commerce-backend.b2dd9750c58741ea4069.png",
@@ -13,10 +13,10 @@
     "static/media/vanishing-stripes.svg": "/bp-react-portfolio/static/media/vanishing-stripes.2eda3e48a9f4d80c11d9a0ed4a2f71a2.svg",
     "index.html": "/bp-react-portfolio/index.html",
     "main.f50e1110.css.map": "/bp-react-portfolio/static/css/main.f50e1110.css.map",
-    "main.73bba2a5.js.map": "/bp-react-portfolio/static/js/main.73bba2a5.js.map"
+    "main.54385940.js.map": "/bp-react-portfolio/static/js/main.54385940.js.map"
   },
   "entrypoints": [
     "static/css/main.f50e1110.css",
-    "static/js/main.73bba2a5.js"
+    "static/js/main.54385940.js"
   ]
 }
