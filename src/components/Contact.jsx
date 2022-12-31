@@ -11,8 +11,7 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
-
+    //    e.preventDefault();
     emailjs
       .sendForm(
         "service_h7oj01f",
@@ -44,8 +43,7 @@ const Contact = () => {
           <div>
             <form
               ref={form}
-              onSubmit={sendEmail}
-              /* {(e) => {
+              onSubmit={(e) => {
                 e.preventDefault();
                 const emailRegex =
                   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
@@ -63,12 +61,14 @@ const Contact = () => {
                 if (errorMsg.length > 0) {
                   alert(errorMsg);
                 } else {
+                  sendEmail();
+
                   alert("Message sent. Thank you!!");
                   setName("");
                   setEmail("");
                   setMessage("");
                 }
-               }}*/
+              }}
             >
               <input
                 value={name}
