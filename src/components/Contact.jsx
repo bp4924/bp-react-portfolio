@@ -1,10 +1,34 @@
 import React from "react";
-import { useState } from "react";
+import emailjs from "emailjs-com";
+//import emailjs from "@emailjs/browser";
+import { useState, useRef } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    //    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_h7oj01f",
+        "contact_form",
+        form.current,
+        "zc3ID8-EaBFaMCEui"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div name="contact" className="h-screen w-full top-20">
       <div>
@@ -18,6 +42,7 @@ const Contact = () => {
 
           <div>
             <form
+              ref={form}
               onSubmit={(e) => {
                 e.preventDefault();
                 const emailRegex =
@@ -36,6 +61,8 @@ const Contact = () => {
                 if (errorMsg.length > 0) {
                   alert(errorMsg);
                 } else {
+                  sendEmail();
+
                   alert("Message sent. Thank you!!");
                   setName("");
                   setEmail("");
