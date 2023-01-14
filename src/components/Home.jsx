@@ -10,7 +10,7 @@ const Home = () => {
         </div>
         <div className="bg-slate-900 italic text-gray-300 text-lg w-full p-4 rounded-lg text-center">
           <p>
-            Pilot | Runner | Navy Vet <br /> Indecision may or may not be my
+            Pilot | Runner | Navy Veteran <br /> Indecision may or may not be my
             biggest problem.
           </p>
         </div>
