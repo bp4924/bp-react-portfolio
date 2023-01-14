@@ -37,7 +37,11 @@ const Contact = () => {
             <p>Contact</p>
           </div>
           <div className="text-2xl rounded-lg text-white p-2 bg-slate-900">
-            <p>Please complete the form and click the submit button</p>
+            <p>
+              Email at
+              <a href="emailto:bp4924@gmail.com"> bp4924@gmail.com, </a>
+              or complete the form and click the submit button
+            </p>
           </div>
 
           <div>
