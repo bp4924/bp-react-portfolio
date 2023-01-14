@@ -71,7 +71,8 @@ const Projects = () => {
       id: 5,
       src: lyfbroImg,
       projectName: "Lyfbro Fitness Tracker",
-      projectDescription: "",
+      projectDescription:
+        "Collaborative project. Fitness tracking with data visualization",
       demoLink: lyfbroDemolink,
       codeLink: lyfbroCodelink,
     },
@@ -79,7 +80,8 @@ const Projects = () => {
       id: 6,
       src: weatherImg,
       projectName: "Weather Dashboard",
-      projectDescription: "",
+      projectDescription:
+        "Searchable by location using jQuery and server-side API calls",
       demoLink: weatherDemoLink,
       codeLink: weatherCodeLink,
     },
