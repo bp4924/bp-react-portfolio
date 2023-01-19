@@ -5,10 +5,11 @@ import eCommerceImg from "../assets/projects/e-commerce-backend.png";
 import noSqlImg from "../assets/projects/nosql.png";
 //import projectTrackerImg from "../assets/projects/project-tracker.png";
 import schedulerImg from "../assets/projects/scheduler.jpg";
-import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
+//import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
 //import teamProfileImg from "../assets/projects/team-profile.png";
 import weatherImg from "../assets/projects/weather.png";
 import lyfbroImg from "../assets/projects/lyfbro.png";
+import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
 
 // project demo links
 const eCommerceDemoLink =
@@ -19,6 +20,7 @@ const employeeTrackerDemoLink =
   "https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj";
 //const teamProfileDemoLink =   "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
 const weatherDemoLink = "https://bp4924.github.io/BP-Weather";
+const claireseCeramicsDemoLink = "https://clairese-ceramics.herokuapp.com/";
 const lyfbroDemolink = "https://lyfbro100.herokuapp.com/login";
 
 // project code links
@@ -30,11 +32,21 @@ const employeeTrackerCodeLink =
 //const teamProfileCodeLink =  "https://github.com/bp4924/BP-Team-Profile-Generator";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
 const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
+const claireseCeramicsCodeLink =
+  "https://github.com/garethtflynn/clairese-ceramics";
 
 const Projects = () => {
   const project = [
     {
       id: 1,
+      src: claireseCeramicsImg,
+      projectName: "Clairese Ceramics",
+      projectDescription: "Collaborative project. Full-stack eCommerce app",
+      demoLink: claireseCeramicsDemoLink,
+      codeLink: claireseCeramicsCodeLink,
+    },
+    {
+      id: 4,
       src: eCommerceImg,
       projectName: "eCommerce Back End",
       projectDescription: "Express.js API connected using Sequelize and MySq",
@@ -59,7 +71,7 @@ const Projects = () => {
       demoLink: schedulerDemoLink,
       codeLink: schedulerCodeLink,
     },
-    {
+    /*     {
       id: 4,
       src: employeeTrackerImg,
       projectName: "Employee Tracker",
@@ -67,6 +79,7 @@ const Projects = () => {
       demoLink: employeeTrackerDemoLink,
       codeLink: employeeTrackerCodeLink,
     },
+ */
     {
       id: 5,
       src: lyfbroImg,
