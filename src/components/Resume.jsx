@@ -2,6 +2,9 @@ import React from "react";
 
 import pdfFile from "../assets/pdf/resume.pdf";
 
+const docsURL =
+  "https://docs.google.com/document/d/1LLniH_ApgK-3Hdpu2rUQJ2XXlB5b0NWw/edit?usp=sharing&ouid=111310025198577527839&rtpof=true&sd=true";
+
 const Resume = () => {
   return (
     <div name="skills" className="h-screen w-full top-20">
@@ -30,7 +33,7 @@ const Resume = () => {
           <div>
             <div className="float-right mt-4">
               <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
-                <a target={"_blank"} rel="noreferrer" href={pdfFile}>
+                <a target={"_blank"} rel="noreferrer" href={docsURL}>
                   Download Resume
                 </a>
               </button>
