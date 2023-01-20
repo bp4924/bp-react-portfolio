@@ -5,9 +5,9 @@ import eCommerceImg from "../assets/projects/e-commerce-backend.png";
 import noSqlImg from "../assets/projects/nosql.png";
 import schedulerImg from "../assets/projects/scheduler.jpg";
 import weatherImg from "../assets/projects/weather.png";
-import lyfbroImg from "../assets/projects/lyfbro.png";
+//1mport lyfbroImg from "../assets/projects/lyfbro.png";
 import bookSearchImg from "../assets/projects/book-search.png";
-//import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
+import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
 //import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
 //import teamProfileImg from "../assets/projects/team-profile.png";
 //import projectTrackerImg from "../assets/projects/project-tracker.png";
@@ -18,9 +18,9 @@ const eCommerceDemoLink =
 const noSqlDemoLink = "https://watch.screencastify.com/v/8UU8iDM3oLGrf4Ce0QGr";
 const schedulerDemoLink = "https://bp4924.github.io/BP-Scheduler/";
 const weatherDemoLink = "https://bp4924.github.io/BP-Weather";
-//const claireseCeramicsDemoLink = "https://clairese-ceramics.herokuapp.com/";
+const claireseCeramicsDemoLink = "https://clairese-ceramics.herokuapp.com/";
 const bookSearchDemolink = "https://lyfbro100.herokuapp.com/login";
-const lyfbroDemolink = "https://lyfbro100.herokuapp.com/login";
+//const lyfbroDemolink = "https://lyfbro100.herokuapp.com/login";
 //const employeeTrackerDemoLink = "https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj";
 //const teamProfileDemoLink =   "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
 
@@ -30,14 +30,24 @@ const noSqlCodeLink = "https://github.com/bp4924/BP-NoSql-Social-Network-API";
 const schedulerCodeLink = "https://github.com/bp4924/BP-Scheduler";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
 const bookSearchCodelink = "https://github.com/bp4924/Lyfbro";
-//const claireseCeramicsCodeLink =  "https://github.com/garethtflynn/clairese-ceramics";
-const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
+const claireseCeramicsCodeLink =
+  "https://github.com/Clairese-Ceramics/clairese-ceramics";
+//const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
 //const employeeTrackerCodeLink ="https://github.com/bp4924/BP-SQL-Employee-Tracker";
 //const teamProfileCodeLink =  "https://github.com/bp4924/BP-Team-Profile-Generator";
 
 const Projects = () => {
   const project = [
-    /*     {
+    {
+      id: 1,
+      src: claireseCeramicsImg,
+      projectName: "Clairese Ceramics",
+      projectDescription: "Collaborative project. Full-stack eCommerce app",
+      demoLink: claireseCeramicsDemoLink,
+      codeLink: claireseCeramicsCodeLink,
+    },
+
+    /*    {
       id: 1,
       src: claireseCeramicsImg,
       projectName: "Clairese Ceramics",
@@ -96,8 +106,7 @@ const Projects = () => {
       demoLink: employeeTrackerDemoLink,
       codeLink: employeeTrackerCodeLink,
     },
- */
-
+ 
     {
       id: 1,
       src: lyfbroImg,
@@ -107,6 +116,7 @@ const Projects = () => {
       demoLink: lyfbroDemolink,
       codeLink: lyfbroCodelink,
     },
+  */
   ];
 
   return (
