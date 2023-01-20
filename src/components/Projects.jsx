@@ -5,7 +5,7 @@ import eCommerceImg from "../assets/projects/e-commerce-backend.png";
 import noSqlImg from "../assets/projects/nosql.png";
 import schedulerImg from "../assets/projects/scheduler.jpg";
 import weatherImg from "../assets/projects/weather.png";
-//import lyfbroImg from "../assets/projects/lyfbro.png";
+//1mport lyfbroImg from "../assets/projects/lyfbro.png";
 import bookSearchImg from "../assets/projects/book-search.png";
 import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
 //import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
@@ -31,7 +31,7 @@ const schedulerCodeLink = "https://github.com/bp4924/BP-Scheduler";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
 const bookSearchCodelink = "https://github.com/bp4924/Lyfbro";
 const claireseCeramicsCodeLink =
-  "https://github.com/garethtflynn/clairese-ceramics";
+  "https://github.com/Clairese-Ceramics/clairese-ceramics";
 //const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
 //const employeeTrackerCodeLink ="https://github.com/bp4924/BP-SQL-Employee-Tracker";
 //const teamProfileCodeLink =  "https://github.com/bp4924/BP-Team-Profile-Generator";
@@ -46,7 +46,16 @@ const Projects = () => {
       demoLink: claireseCeramicsDemoLink,
       codeLink: claireseCeramicsCodeLink,
     },
-    {
+
+    /*    {
+      id: 1,
+      src: claireseCeramicsImg,
+      projectName: "Clairese Ceramics",
+      projectDescription: "Collaborative project. Full-stack eCommerce app",
+      demoLink: claireseCeramicsDemoLink,
+      codeLink: claireseCeramicsCodeLink,
+    },
+ */ {
       id: 2,
       src: bookSearchImg,
       projectName: "Google Book Scearch",
@@ -97,10 +106,9 @@ const Projects = () => {
       demoLink: employeeTrackerDemoLink,
       codeLink: employeeTrackerCodeLink,
     },
- */
-
-    /*     {
-      id: 5,
+ 
+    {
+      id: 1,
       src: lyfbroImg,
       projectName: "Lyfbro Fitness Tracker",
       projectDescription:
@@ -108,7 +116,7 @@ const Projects = () => {
       demoLink: lyfbroDemolink,
       codeLink: lyfbroCodelink,
     },
- */
+  */
   ];
 
   return (
