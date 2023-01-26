@@ -1,6 +1,6 @@
 import React from "react";
 
-import pdfFile from "../assets/pdf/resume.pdf";
+//import pdfFile from "../assets/pdf/resume.pdf";
 
 const docsURL =
   "https://docs.google.com/document/d/1LLniH_ApgK-3Hdpu2rUQJ2XXlB5b0NWw/edit?usp=sharing&ouid=111310025198577527839&rtpof=true&sd=true";
@@ -13,6 +13,8 @@ const Resume = () => {
           <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
             <p>Skills</p>
           </div>
+
+          {/* proficiencies */}
           <div className="text-2xl text-center rounded-lg mb-4 text-white p-2 bg-slate-900">
             <p>Key Proficiencies</p>
           </div>
@@ -30,6 +32,27 @@ const Resume = () => {
               <li>CSS</li>
             </ul>
           </div>
+
+          {/* transferrable experiences */}
+          <div className="text-2xl text-center rounded-lg mt-4 mb-4 text-white p-2 bg-slate-900">
+            <p>Transferable Experiences</p>
+          </div>
+          <div className="flex items-center justify-center p-4 border rounded-lg">
+            <ul className="w-1/4 text-white text-lg text-left">
+              <li>Leadership</li>
+              <li>Teamwork</li>
+            </ul>
+            <ul className="w-1/4 text-white text-lg text-center">
+              <li>Customer Service</li>
+              <li>Communication</li>
+            </ul>
+            <ul className="w-1/4 text-white text-lg text-right">
+              <li>Safety Management</li>
+              <li>Attention to Detail</li>
+            </ul>
+          </div>
+
+          {/* resume button */}
           <div>
             <div className="float-right mt-4">
               <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
