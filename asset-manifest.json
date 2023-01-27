@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bp-react-portfolio/static/css/main.48d4241b.css",
-    "main.js": "/bp-react-portfolio/static/js/main.56d12c7b.js",
+    "main.css": "/bp-react-portfolio/static/css/main.f50e1110.css",
+    "main.js": "/bp-react-portfolio/static/js/main.21dbb8cd.js",
     "static/media/clairese-ceramics.png": "/bp-react-portfolio/static/media/clairese-ceramics.7430994e014f7f1944e7.png",
     "static/media/nosql.png": "/bp-react-portfolio/static/media/nosql.c20feece339e42bc123c.png",
     "static/media/bp-pic.png": "/bp-react-portfolio/static/media/bp-pic.044dac86618fb9772339.png",
@@ -11,11 +11,11 @@
     "static/media/book-search.png": "/bp-react-portfolio/static/media/book-search.476b98afaecc712090e6.png",
     "static/media/vanishing-stripes.svg": "/bp-react-portfolio/static/media/vanishing-stripes.2eda3e48a9f4d80c11d9a0ed4a2f71a2.svg",
     "index.html": "/bp-react-portfolio/index.html",
-    "main.48d4241b.css.map": "/bp-react-portfolio/static/css/main.48d4241b.css.map",
-    "main.56d12c7b.js.map": "/bp-react-portfolio/static/js/main.56d12c7b.js.map"
+    "main.f50e1110.css.map": "/bp-react-portfolio/static/css/main.f50e1110.css.map",
+    "main.21dbb8cd.js.map": "/bp-react-portfolio/static/js/main.21dbb8cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d4241b.css",
-    "static/js/main.56d12c7b.js"
+    "static/css/main.f50e1110.css",
+    "static/js/main.21dbb8cd.js"
   ]
 }
