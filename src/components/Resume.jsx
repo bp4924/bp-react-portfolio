@@ -35,18 +35,18 @@ const Resume = () => {
 
           {/* transferrable experiences */}
           <div className="text-2xl text-center rounded-lg mt-4 mb-4 text-white p-2 bg-slate-900">
-            <p>Transferable Experiences</p>
+            <p>Transferable Talents</p>
           </div>
-          <div className="flex items-center justify-center p-4 border rounded-lg">
-            <ul className="w-1/4 text-white text-lg text-left">
+          <div className="flex flex-col items-center justify-center p-4 border rounded-lg md:flex-row">
+            <ul className="flex flex-col w-1/3  text-white text-lg text-center">
               <li>Leadership</li>
               <li>Teamwork</li>
             </ul>
-            <ul className="w-1/4 text-white text-lg text-center">
+            <ul className="flex flex-col w-1/3 text-white text-lg text-center">
               <li>Customer Service</li>
               <li>Communication</li>
             </ul>
-            <ul className="w-1/4 text-white text-lg text-right">
+            <ul className="flex flex-col w-1/3 text-white text-lg text-center">
               <li>Safety Management</li>
               <li>Attention to Detail</li>
             </ul>

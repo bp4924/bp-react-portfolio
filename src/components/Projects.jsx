@@ -1,11 +1,11 @@
 import React from "react";
 
 // project images
-import eCommerceImg from "../assets/projects/e-commerce-backend.png";
+//import eCommerceImg from "../assets/projects/e-commerce-backend.png";
 import noSqlImg from "../assets/projects/nosql.png";
 import schedulerImg from "../assets/projects/scheduler.jpg";
 import weatherImg from "../assets/projects/weather.png";
-//1mport lyfbroImg from "../assets/projects/lyfbro.png";
+import lyfbroImg from "../assets/projects/lyfbro.png";
 import bookSearchImg from "../assets/projects/book-search.png";
 import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
 //import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
@@ -13,26 +13,25 @@ import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
 //import projectTrackerImg from "../assets/projects/project-tracker.png";
 
 // project demo links
-const eCommerceDemoLink =
-  "https://watch.screencastify.com/v/CezrQxMzXkyMSvaGYd5h";
+//const eCommerceDemoLink =  "https://watch.screencastify.com/v/CezrQxMzXkyMSvaGYd5h";
 const noSqlDemoLink = "https://watch.screencastify.com/v/8UU8iDM3oLGrf4Ce0QGr";
 const schedulerDemoLink = "https://bp4924.github.io/BP-Scheduler/";
 const weatherDemoLink = "https://bp4924.github.io/BP-Weather";
-const claireseCeramicsDemoLink = "https://clairese-ceramics.herokuapp.com/";
-const bookSearchDemolink = "https://lyfbro100.herokuapp.com/login";
-//const lyfbroDemolink = "https://lyfbro100.herokuapp.com/login";
+const claireseCeramicsDemoLink = "https://claireseceramics.herokuapp.com/";
+const bookSearchDemoLink = "https://bp-frontend.herokuapp.com/";
+const lyfbroDemoLink = "https://lyfbro100.herokuapp.com/login";
 //const employeeTrackerDemoLink = "https://watch.screencastify.com/v/rWy1zdDhlbU3dRmQCcwj";
 //const teamProfileDemoLink =   "https://watch.screencastify.com/v/H3Fx0t2LXEaky0LiYaU6";
 
 // project code links
-const eCommerceCodeLink = "https://github.com/bp4924/BP-ORM-eCommerce-Back-End";
+//const eCommerceCodeLink = "https://github.com/bp4924/BP-ORM-eCommerce-Back-End";
 const noSqlCodeLink = "https://github.com/bp4924/BP-NoSql-Social-Network-API";
 const schedulerCodeLink = "https://github.com/bp4924/BP-Scheduler";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
-const bookSearchCodelink = "https://github.com/bp4924/Lyfbro";
+const bookSearchCodeLink = "https://github.com/bp4924/Lyfbro";
 const claireseCeramicsCodeLink =
-  "https://github.com/Clairese-Ceramics/clairese-ceramics";
-//const lyfbroCodelink = "https://github.com/bp4924/Lyfbro";
+  "https://github.com/garethtflynn/shopClaireseCeramics";
+const lyfbroCodeLink = "https://github.com/bp4924/Lyfbro";
 //const employeeTrackerCodeLink ="https://github.com/bp4924/BP-SQL-Employee-Tracker";
 //const teamProfileCodeLink =  "https://github.com/bp4924/BP-Team-Profile-Generator";
 
@@ -46,22 +45,13 @@ const Projects = () => {
       demoLink: claireseCeramicsDemoLink,
       codeLink: claireseCeramicsCodeLink,
     },
-
-    /*    {
-      id: 1,
-      src: claireseCeramicsImg,
-      projectName: "Clairese Ceramics",
-      projectDescription: "Collaborative project. Full-stack eCommerce app",
-      demoLink: claireseCeramicsDemoLink,
-      codeLink: claireseCeramicsCodeLink,
-    },
- */ {
+    {
       id: 2,
       src: bookSearchImg,
       projectName: "Google Book Scearch",
       projectDescription: "MERN stack app using GraphQL API and Apollo Server",
-      demoLink: bookSearchDemolink,
-      codeLink: bookSearchCodelink,
+      demoLink: bookSearchDemoLink,
+      codeLink: bookSearchCodeLink,
     },
     {
       id: 3,
@@ -74,13 +64,22 @@ const Projects = () => {
     },
     {
       id: 4,
+      src: lyfbroImg,
+      projectName: "Lyfbro Fitness Tracker",
+      projectDescription:
+        "Collaborative project. Fitness tracking with data visualization",
+      demoLink: lyfbroDemoLink,
+      codeLink: lyfbroCodeLink,
+    },
+    /*     {
+      id: 4,
       src: eCommerceImg,
       projectName: "eCommerce Back End",
       projectDescription: "Express.js API connected using Sequelize and MySql",
       demoLink: eCommerceDemoLink,
       codeLink: eCommerceCodeLink,
     },
-    {
+ */ {
       id: 5,
       src: noSqlImg,
       projectName: "NoSQL API",
