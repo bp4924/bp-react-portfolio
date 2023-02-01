@@ -1,5 +1,5 @@
 import React from "react";
-import headShot from "../assets/bp-pic.png";
+import headShot from "../assets/BP.jpg";
 
 const About = () => {
   return (
