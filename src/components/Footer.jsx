@@ -15,15 +15,16 @@ const Footer = () => {
         >
           <FaLinkedin size={30} className="cursor-pointer w-20" />
         </a>
-        <a
+        {/*         <a
           href="https://meta.stackoverflow.com/users/19053436/bernie-petters"
           target="_blank"
           rel="noreferrer"
         >
           <FaStackOverflow size={30} className="cursor-pointer w-20" />
         </a>
+ */}{" "}
       </div>
-      <p className="text-center pb-4 text-sm">Copyright 2022</p>
+      <p className="text-center pb-4 text-sm">Copyright 2023</p>
     </div>
   );
 };

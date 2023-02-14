@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div name="skills" className="h-screen w-full top-20">
       <div>
-        <div className="flex flex-col justify-center p-4 h-screen max-w-screen-lg m-auto">
+        <div className="flex flex-col align-middle p-4 m-auto max-w-screen-lg w-full h-screen">
           <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
             <p>Skills</p>
           </div>
