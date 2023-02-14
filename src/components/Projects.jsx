@@ -120,51 +120,53 @@ const Projects = () => {
 
   return (
     <div name="projects" className="h-full w-full top-20">
-      <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
-        <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
-          <p>Projects</p>
-        </div>
-        {/* cards  */}
-        <div className="grid gap-8 px-0 rounded h-full md:grid-cols-2 lg:grid-cols-3">
-          {project.map(
-            ({
-              id,
-              src,
-              projectName,
-              projectDescription,
-              demoLink,
-              codeLink,
-            }) => (
-              <div
-                key={id}
-                className="bg-slate-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
-              >
-                <h1 className="text-xl text-center ">{projectName} </h1>
-                <h2 className="text-l text-center">{projectDescription} </h2>
-                <img
-                  src={src}
-                  alt="screenshot"
-                  className="rounded-lg h-40 w-full"
-                />
-                <div className="flex items-center justify-center">
-                  <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-                    <div>
-                      <a target="_blank" rel="noreferrer" href={demoLink}>
-                        demo
-                      </a>
-                    </div>
-                  </button>
-                  <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-                    <div>
-                      <a target="_blank" rel="noreferrer" href={codeLink}>
-                        code
-                      </a>
-                    </div>
-                  </button>
+      <div>
+        <div className="flex flex-col justify-center p-4 m-auto max-w-screen-lg w-full h-full">
+          <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
+            <p>Projects</p>
+          </div>
+          {/* cards  */}
+          <div className="grid gap-8 px-0 rounded h-full md:grid-cols-2 lg:grid-cols-3">
+            {project.map(
+              ({
+                id,
+                src,
+                projectName,
+                projectDescription,
+                demoLink,
+                codeLink,
+              }) => (
+                <div
+                  key={id}
+                  className="bg-slate-900 shadow-md shadow-gray-300 rounded-lg border text-gray-300 p-2 hover:scale-105"
+                >
+                  <h1 className="text-xl text-center ">{projectName} </h1>
+                  <h2 className="text-l text-center">{projectDescription} </h2>
+                  <img
+                    src={src}
+                    alt="screenshot"
+                    className="rounded-lg h-40 w-full"
+                  />
+                  <div className="flex items-center justify-center">
+                    <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
+                      <div>
+                        <a target="_blank" rel="noreferrer" href={demoLink}>
+                          demo
+                        </a>
+                      </div>
+                    </button>
+                    <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
+                      <div>
+                        <a target="_blank" rel="noreferrer" href={codeLink}>
+                          code
+                        </a>
+                      </div>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            )
-          )}
+              )
+            )}
+          </div>
         </div>
       </div>
     </div>
