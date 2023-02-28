@@ -94,7 +94,7 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 name="message"
-                rows="10"
+                rows="6"
                 placeholder="Message"
                 className="bg-transparent p-2 my-2 border-2 w-full rounded-lg text-white focus:bg-gray-200 focus:text-slate-900"
               ></textarea>
