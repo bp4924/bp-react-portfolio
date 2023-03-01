@@ -32,11 +32,11 @@ The app is deployed to Github pages, and is fully responsive.
 
 To view the app, click this [link](https://bp4924.github.io/bp-react-portfolio/).
 
-- Navigate to the various sections using the menu items at the top. For mobile screens, click the hamburger icon at the top left to expose the menu items.
+- Navigate to the various sections using the menu items at the top. For mobile screens, click the hamburger icon at the top right to expose the menu items.
 
 - Each displayed project contains a link to a demo or deployed app and a link to the code repository on Github.
 
-- To download my resume, click the 'Download Resume' button. THis will open a new tab containing a pdf, which can be printed or saved.
+- To download my resume, click the 'Download Resume' button. This will open a new tab containing a pdf, which can be printed or saved.
 
 ## Screenshot
 
