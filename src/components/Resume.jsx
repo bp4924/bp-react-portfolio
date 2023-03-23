@@ -38,15 +38,15 @@ const Resume = () => {
             <p>Transferable Talents</p>
           </div>
           <div className="flex flex-col items-center justify-center p-4 border rounded-lg md:flex-row">
-            <ul className="flex flex-col w-1/3  text-white text-lg text-center">
+            <ul className="flex flex-col   text-white text-lg text-center md:w-1/3 ">
               <li>Leadership</li>
               <li>Teamwork</li>
             </ul>
-            <ul className="flex flex-col w-1/3 text-white text-lg text-center">
+            <ul className="flex flex-col text-white text-lg text-center md:w-1/3">
               <li>Customer Service</li>
               <li>Communication</li>
             </ul>
-            <ul className="flex flex-col w-1/3 text-white text-lg text-center">
+            <ul className="flex flex-col  text-white text-lg text-center md:w-1/3">
               <li>Safety Management</li>
               <li>Attention to Detail</li>
             </ul>
@@ -54,7 +54,7 @@ const Resume = () => {
 
           {/* resume button */}
           <div>
-            <div className="float-right mt-4">
+            <div className="float-right mt-4 mb-4">
               <button className="bg-gray-800 text-center text-gray-400 px-4 py-2 border rounded-lg hover:scale-110 hover:text-gray-300">
                 <a target={"_blank"} rel="noreferrer" href={docsURL}>
                   Download Resume

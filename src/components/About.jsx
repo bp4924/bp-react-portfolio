@@ -9,7 +9,7 @@ const About = () => {
           <div className="text-2xl font-bold text-slate-900 bg-orange-500 p-4 rounded-lg mb-4 text-center m-0">
             <p>About</p>
           </div>
-          <div classname="flex w-screen items-center">
+          <div className="items-center">
             <div className="text-white bg-slate-900 text-lg p-4 italic rounded-lg">
               <p>
                 Graduate of the Georgia Tech Full-Stack Coding Bootcamp, with
@@ -23,7 +23,7 @@ const About = () => {
                 this new adventure.
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="hidden md:flex justify-center ">
               <img
                 src={headShot}
                 alt="head shot"
