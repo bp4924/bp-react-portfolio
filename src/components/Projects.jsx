@@ -8,6 +8,7 @@ import weatherImg from "../assets/projects/weather.png";
 import lyfbroImg from "../assets/projects/lyfbro.png";
 import bookSearchImg from "../assets/projects/book-search.png";
 import claireseCeramicsImg from "../assets/projects/clairese-ceramics.png";
+import ProjectButtons from "./ProjectButtons";
 //import employeeTrackerImg from "../assets/projects/sql-employee-tracker.png";
 //import teamProfileImg from "../assets/projects/team-profile.png";
 //import projectTrackerImg from "../assets/projects/project-tracker.png";
@@ -147,22 +148,7 @@ const Projects = () => {
                     alt="screenshot"
                     className="rounded-lg h-40 w-full object-contain"
                   />
-                  <div className="flex items-center justify-center">
-                    <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-                      <div>
-                        <a target="_blank" rel="noreferrer" href={demoLink}>
-                          demo
-                        </a>
-                      </div>
-                    </button>
-                    <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
-                      <div>
-                        <a target="_blank" rel="noreferrer" href={codeLink}>
-                          code
-                        </a>
-                      </div>
-                    </button>
-                  </div>
+                  <ProjectButtons demoLink={demoLink} codeLink={codeLink} />
                 </div>
               )
             )}
