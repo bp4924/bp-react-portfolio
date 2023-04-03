@@ -145,7 +145,7 @@ const Projects = () => {
                   <img
                     src={src}
                     alt="screenshot"
-                    className="rounded-lg h-40 w-full"
+                    className="rounded-lg h-40 w-full object-contain"
                   />
                   <div className="flex items-center justify-center">
                     <button className="w-1/2 mt-2 mx-2 border rounded-lg hover:scale-105 hover:bg-gray-400 hover:text-gray-900">
