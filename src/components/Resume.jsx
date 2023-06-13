@@ -3,7 +3,7 @@ import React from "react";
 //import pdfFile from "../assets/pdf/resume.pdf";
 
 const docsURL =
-  "https://docs.google.com/document/d/1LLniH_ApgK-3Hdpu2rUQJ2XXlB5b0NWw/edit?usp=sharing&ouid=111310025198577527839&rtpof=true&sd=true";
+  "https://docs.google.com/document/d/19ifO_Tv45eigPLIgUEQI6oGiq6Go3yPkpEQqA47XenE/edit?usp=sharing";
 
 const Resume = () => {
   return (
@@ -24,6 +24,12 @@ const Resume = () => {
               <li>Node</li>
               <li>Express</li>
               <li>MongoDB</li>
+            </ul>
+            <ul className="w-1/3 text-white text-lg text-center">
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
             </ul>
             <ul className="w-1/3 text-white text-lg text-right">
               <li>SQL</li>
