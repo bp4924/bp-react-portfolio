@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bp-react-portfolio/static/css/main.956fb02f.css",
-    "main.js": "/bp-react-portfolio/static/js/main.554398b4.js",
+    "main.js": "/bp-react-portfolio/static/js/main.7e3ffade.js",
     "static/media/clairese-ceramics.png": "/bp-react-portfolio/static/media/clairese-ceramics.7430994e014f7f1944e7.png",
     "static/media/nosql.png": "/bp-react-portfolio/static/media/nosql.c20feece339e42bc123c.png",
     "static/media/BP.jpg": "/bp-react-portfolio/static/media/BP.15825692b7dadc7707f0.jpg",
@@ -12,10 +12,10 @@
     "static/media/vanishing-stripes.svg": "/bp-react-portfolio/static/media/vanishing-stripes.2eda3e48a9f4d80c11d9a0ed4a2f71a2.svg",
     "index.html": "/bp-react-portfolio/index.html",
     "main.956fb02f.css.map": "/bp-react-portfolio/static/css/main.956fb02f.css.map",
-    "main.554398b4.js.map": "/bp-react-portfolio/static/js/main.554398b4.js.map"
+    "main.7e3ffade.js.map": "/bp-react-portfolio/static/js/main.7e3ffade.js.map"
   },
   "entrypoints": [
     "static/css/main.956fb02f.css",
-    "static/js/main.554398b4.js"
+    "static/js/main.7e3ffade.js"
   ]
 }
