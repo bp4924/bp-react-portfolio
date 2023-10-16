@@ -1,9 +1,8 @@
 import React from "react";
 
 //import pdfFile from "../assets/pdf/resume.pdf";
-
 const docsURL =
-  "https://docs.google.com/document/d/19ifO_Tv45eigPLIgUEQI6oGiq6Go3yPkpEQqA47XenE/edit?usp=sharing";
+  "https://docs.google.com/document/d/1ez6TmBcBWt2nIZzvBTAzX3z9E2mvwPqsEN5K10m-QTc/edit?usp=sharing";
 
 const Resume = () => {
   return (
