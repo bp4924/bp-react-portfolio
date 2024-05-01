@@ -46,7 +46,7 @@ To view the app, click this [link](https://bp4924.github.io/bp-react-portfolio/)
 
 Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license;
 
-Copyright © 2022. All rights reserved.
+Copyright © 2024. All rights reserved.
 
 ## Contributing
 
