@@ -12,15 +12,15 @@ const About = () => {
           <div className="items-center">
             <div className="text-white bg-slate-900 text-lg p-4 italic rounded-lg">
               <p>
-                Graduate of the Georgia Tech Full-Stack Coding Bootcamp, with
-                experience in the complete MERN stack, as well as JavaScript,
-                HTML, and CSS.
+                I hold a Bachelors Degree in Industrial Engineering from Auburn
+                University, and am a graduate of the Georgia Tech Full-Stack
+                Coding Bootcamp My experience includes the complete MERN stack,
+                as well as JavaScript, HTML, and CSS.
               </p>
               <br />
               <p>
-                I have always enjoyed solving puzzles and finding innovative
-                solutions to complex problems. I am very excited to embark on
-                this new adventure.
+                I love solving puzzles and finding innovative solutions to
+                complex problems.
               </p>
             </div>
             <div className="hidden md:flex justify-center ">

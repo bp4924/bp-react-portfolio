@@ -23,16 +23,19 @@ const Resume = () => {
               <li>Node</li>
               <li>Express</li>
               <li>MongoDB</li>
+              <li>JavaScript</li>
             </ul>
             <ul className="w-1/3 text-white text-lg text-center">
               <li>Python</li>
+              <li>Java</li>
               <li>TypeScript</li>
               <li>Tailwind</li>
               <li>Bootstrap</li>
             </ul>
             <ul className="w-1/3 text-white text-lg text-right">
               <li>SQL</li>
-              <li>JavaScript</li>
+              <li>VBA</li>
+              <li>PHP</li>
               <li>HTML</li>
               <li>CSS</li>
             </ul>
