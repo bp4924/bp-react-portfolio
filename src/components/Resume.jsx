@@ -2,7 +2,7 @@ import React from "react";
 
 //import pdfFile from "../assets/pdf/resume.pdf";
 const docsURL =
-  "https://docs.google.com/document/d/1ez6TmBcBWt2nIZzvBTAzX3z9E2mvwPqsEN5K10m-QTc/edit?usp=sharing";
+  "https://docs.google.com/document/d/1eM1HUPHxeYcP-A4IPDxi19T48lak3MHnxQSy56dIZtM/edit?usp=sharing";
 
 const Resume = () => {
   return (

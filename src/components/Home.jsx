@@ -10,8 +10,9 @@ const Home = () => {
         </div>
         <div className="bg-slate-900 italic text-gray-300 text-lg w-full p-4 rounded-lg text-center">
           <p>
-            Pilot | Runner | Navy Veteran <br /> I can't change the direction of
-            the wind, but I can adjust my sails to always reach my destination.
+            Pilot | Runner | Navy Veteran <br /> <br /> I can't change the
+            direction of the wind, but I can adjust my sails to always reach my
+            destination.
           </p>
         </div>
       </div>
