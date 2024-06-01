@@ -29,7 +29,7 @@ const lyfbroDemoLink = "https://lyfbro100.herokuapp.com/login";
 const noSqlCodeLink = "https://github.com/bp4924/BP-NoSql-Social-Network-API";
 const schedulerCodeLink = "https://github.com/bp4924/BP-Scheduler";
 const weatherCodeLink = "https://github.com/bp4924/BP-Weather";
-const bookSearchCodeLink = "https://github.com/bp4924/Lyfbro";
+const bookSearchCodeLink = "https://github.com/bp4924/BP-MERN-Book-Search";
 const claireseCeramicsCodeLink =
   "https://github.com/garethtflynn/shopClaireseCeramics";
 const lyfbroCodeLink = "https://github.com/bp4924/Lyfbro";
