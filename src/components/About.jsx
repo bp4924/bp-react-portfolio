@@ -26,27 +26,19 @@ const About = () => {
                 complex problems.
               </p>
             </div>
-
             <div className="justify-center text-center p-4 m-auto max-w-screen-lg w-full">
               <Buttons
                 buttonLink={portfolioCode}
                 buttonText={"View code for this portfolio"}
               />
-              {/*<button className="text-lg border rounded-lg mt-4 mb-4 text-white p-2 bg-slate-900 hover:bg-gray-400 hover:text-gray-900 hover:scale-110 ">
-              <div>
-                <a target="_blank" rel="noreferrer" href={portfolioCode}>
-                  View code for this portfolio
-                </a>
-              </div>
-              {/*              </button>*/}
-            </div>
 
-            <div className="hidden md:flex justify-center ">
-              <img
-                src={headShot}
-                alt="head shot"
-                className="w-44 rounded-lg m-4 "
-              />
+              <div className="hidden md:flex justify-center">
+                <img
+                  src={headShot}
+                  alt="head shot"
+                  className="w-44 rounded-lg m-4 "
+                />
+              </div>
             </div>
           </div>
         </div>
